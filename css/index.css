@@ -1,0 +1,68 @@
+/* Change to border-box sizing */
+
+* {
+    box-sizing: border-box;
+  }
+
+  
+  /* General font and sizing */
+  
+  body {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: Helvetica;
+    margin: 0px;
+  }
+  
+  img {
+    float:right;
+  }
+
+  /* Container to hold all content */
+  
+
+  .container {
+    margin: 80px auto 15px auto;
+    padding: 15px;
+    width: 1000px;
+    height:800px;
+  }
+  
+  /* Change header font */
+  
+  h1 {
+    text-transform: uppercase;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+  
+  
+  /* Undo default list styling */
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Contact list */
+  
+  li {
+    margin-bottom: 30px;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  }
+  
+  p {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  }
+  
+  a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
