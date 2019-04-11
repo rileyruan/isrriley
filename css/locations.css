@@ -1,15 +1,6 @@
 *
 
-{
-  box-sizing: border-box;
-}
-
-
-.logo {
-  color: white;
-  font-size: 90px;
-  font-family: Helvetica;
-  text-align: center;
+img {
   float: right;
   margin-top: 150px;
   margin-right: 240px;
