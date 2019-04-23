@@ -1,24 +1,19 @@
 *
-
-img {
-  float: right;
-  margin-top: 150px;
-  margin-right: 240px;
-}
-
 body {
   background-color: black;
+  color:white;
+  font-size: 16px;
   font-family: Helvetica;
-  margin-top: 120px;
+  margin-top: 117px;
 }
 
 .tab {
   font-size: 18px;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-top: 14px;
+  margin-left: 54px;
   list-style: none;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .tab-style {
@@ -26,6 +21,13 @@ body {
   text-decoration: none;
 }
 
+a {
+  color: lightgray;
+}
+
+.container {
+  float: middle;
+}
 .my-custom-carousel .carousel-caption > h5 {
   color: white;
   font-family: Helvetica;
@@ -40,7 +42,7 @@ body {
   height: 5px;
   border-radius: 0;
   margin: 15px;
-  background-color: gray;
+  background-color: lightgray;
   opacity: 0.6;
 }
 
@@ -55,16 +57,16 @@ body {
 }
 
 
-/* MEDIA QUERIES */
-@media only screen and (min-width: 375px) {
+
+@media only screen and (min-width: 575px) {
   .my-custom-carousel .carousel-inner img {
-      height: 250px;
+      height: 1151px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 383px) {
   .my-custom-carousel .carousel-inner img {
-      height: 500px;
+      height: 767px;
   }
 }
 }
