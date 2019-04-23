@@ -23,9 +23,49 @@ body {
 
 .tab-style {
   color: white;
-}
-
-a{
-  color: white;
   text-decoration: none;
 }
+
+.my-custom-carousel .carousel-caption > h5 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.my-custom-carousel .carousel-caption > p {
+  color: white;
+}
+.my-custom-carousel .carousel-indicators > li {
+  width: 30px;
+  height: 5px;
+  border-radius: ;
+  margin: 15px;
+  background-color: gray;
+  opacity: 0.6;
+}
+
+.my-custom-carousel .carousel-indicators > li.active {
+  background-color: black;
+  opacity: 1;
+}
+
+.my-custom-carousel .carousel-control-prev, 
+.my-custom-carousel .carousel-control-next {
+  opacity: 1;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 375px) {
+  .my-custom-carousel .carousel-inner img {
+      height: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my-custom-carousel .carousel-inner img {
+      height: 500px;
+  }
+}
+}
+
