@@ -21,17 +21,17 @@ body {
   text-decoration: none;
 }
 
-a {
-  color: lightgray;
-}
-
-.container {
-  float: middle;
-}
-.my-custom-carousel .carousel-caption > h5 {
+h5 {
+  float: top;
   color: white;
   font-family: Helvetica;
   font-size: 18px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .my-custom-carousel .carousel-caption > p {
@@ -39,7 +39,7 @@ a {
 }
 .my-custom-carousel .carousel-indicators > li {
   width: 30px;
-  height: 5px;
+  height: 3px;
   border-radius: 0;
   margin: 15px;
   background-color: lightgray;
@@ -54,20 +54,6 @@ a {
 .my-custom-carousel .carousel-control-prev, 
 .my-custom-carousel .carousel-control-next {
   opacity: 1;
-}
-
-
-
-@media only screen and (min-width: 575px) {
-  .my-custom-carousel .carousel-inner img {
-      height: 1151px;
-  }
-}
-
-@media only screen and (min-width: 383px) {
-  .my-custom-carousel .carousel-inner img {
-      height: 767px;
-  }
-}
+  
 }
 
