@@ -1,11 +1,9 @@
-/* Change to border-box sizing */
 
 * {
     box-sizing: border-box;
   }
 
   
-  /* General font and sizing */
   
   body {
     background-color: black;
@@ -24,9 +22,7 @@
   section {
       margin-top: 20px;
   }
-  /* Container to hold all content */
   
-
   .container {
     margin: 30px auto 15px auto;
     padding: 15px;
@@ -34,7 +30,6 @@
     height:800px;
   }
   
-  /* Change header font */
   
   h1 {
     text-transform: uppercase;
@@ -48,8 +43,6 @@
   }
   
   
-  /* Undo default list styling */
-  
   .contact {
     list-style: none;
     padding: 0;
@@ -58,8 +51,6 @@
     color: #aaa;
     text-decoration: underline;
   }
-  
-  /* Contact list */
   
   p {
     font-family: "IBM Plex Sans Condensed", sans-serif;
@@ -90,3 +81,5 @@
     text-decoration: none;
     color: lightgray;
   }
+
+  
