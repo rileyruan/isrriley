@@ -1,11 +1,5 @@
 *
 
-img {
-  float: right;
-  margin-top: 150px;
-  margin-right: 240px;
-}
-
 body {
   background-color: black;
   font-family: Helvetica;
@@ -28,4 +22,47 @@ body {
 a{
   color: lightgray;
   text-decoration: none;
+}
+
+h5 {
+  float: top;
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+.location-xm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.location-la {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.my-custom-carousel .carousel-caption > p {
+  color: white;
+}
+.my-custom-carousel .carousel-indicators > li {
+  width: 30px;
+  height: 3px;
+  border-radius: 0;
+  margin: 15px;
+  background-color: lightgray;
+  opacity: 0.6;
+}
+
+.my-custom-carousel .carousel-indicators > li.active {
+  background-color: black;
+  opacity: 1;
+}
+
+.my-custom-carousel .carousel-control-prev, 
+.my-custom-carousel .carousel-control-next {
+  opacity: 1;
+  
 }
