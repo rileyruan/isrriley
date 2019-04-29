@@ -2,23 +2,25 @@
 body {
   background-color: black;
   color:white;
-  font-size: 16px;
-  font-family: Helvetica;
-  margin-top: 117px;
-}
+  margin-top: 100px;
+  }
 
 .tab {
   font-size: 18px;
+  font-family: Helvetica;
   text-transform: uppercase;
-  margin-top: 14px;
-  margin-left: 54px;
+  margin-top: 15px;
+  margin-left: 50px;
   list-style: none;
   text-decoration: none;
-}
+  }
 
 .tab-style {
   color: white;
-  text-decoration: none;
+}
+
+.row {
+  display: inline-block;
 }
 
 h5 {
