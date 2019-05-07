@@ -11,7 +11,7 @@ body {
     font-family: Helvetica;
     text-transform: uppercase;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 10px;
     list-style: none;
     text-decoration: none;
   }
@@ -33,7 +33,7 @@ body {
 
   section {
     margin-top: 20px;
-    font-family: Helvetica;
+    
   }
   
   .container {
@@ -41,18 +41,23 @@ body {
     padding: 15px;
     width: 1050px;
     height:800px;
+    float:right;
   }
   
   
   h1 {
     text-transform: uppercase;
     margin-bottom: 40px;
-    font-size: 50px;
+    font-size: 30px;
+    font-family: Helvetica;
+    
   }
 
   h2 {
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: Helvetica;
   }
   
   

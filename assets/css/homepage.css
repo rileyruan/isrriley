@@ -11,19 +11,21 @@ body {
   font-family: Helvetica;
   text-transform: uppercase;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 10px;
   list-style: none;
   text-decoration: none;
   }
 
 h1 {
   color: white;
-  font-size: 90px;
+  font-size: 200px;
   font-family: Helvetica;
+  margin-right: 100px;
+}
+
+.logo {
+  float:right;
   text-align: center;
-  float: right;
-  margin-top: 150px;
-  margin-right: 240px;
 }
 
 
