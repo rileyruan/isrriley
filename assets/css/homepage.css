@@ -16,7 +16,7 @@ body {
   text-decoration: none;
   }
 
-.logo {
+h1 {
   color: white;
   font-size: 90px;
   font-family: Helvetica;
@@ -40,13 +40,4 @@ a{
   text-decoration: none;
 }
 
-.sign-up {
-  font-family: helvetica;
-  color: white;
-  margin-left: 30px;
-  margin-top: 20px;
-}
 
-label {
-  font-size: 12px;
-}
