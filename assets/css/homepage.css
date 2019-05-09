@@ -6,36 +6,37 @@ body {
   margin-top: 100px;
   }
 
-.tab {
-  font-size: 18px;
-  font-family: Helvetica;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 10px;
-  list-style: none;
-  text-decoration: none;
+  .tab {
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
   }
+  
 
+  .tab-style {
+    color: white;
+    text-decoration: none;
+  }
 h1 {
   color: white;
   font-size: 200px;
   font-family: Helvetica;
-  margin-right: 100px;
-}
-
-.logo {
+  text-transform: lowercase;
+  margin-right: 300px;
+  margin-top: 200px;
   float:right;
   text-align: center;
 }
 
-
-.tab-style {
-  color: white;
+.icon {
+  width: 30px;
+  margin-left: 60px;
+  margin-top: 200px;
 }
 
-.row {
-  display: inline-block;
-}
 
 a{
   color: lightgray;

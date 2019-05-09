@@ -1,28 +1,26 @@
 *
 
 body {
-    background-color: black;
-    color:white;
-    margin-top: 100px;
-    }
-  
+  background-color: black;
+  color:white;
+  margin-top: 100px;
+  }
+
   .tab {
     font-size: 18px;
     font-family: Helvetica;
-    text-transform: uppercase;
-    margin-top: 15px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
     list-style: none;
     text-decoration: none;
-    }
+  }
   
+
   .tab-style {
     color: white;
+    text-decoration: none;
   }
 
-  .row {
-    display: inline-block;
-  }
 
 h5 {
   float: top;
@@ -30,11 +28,25 @@ h5 {
   font-family: Helvetica;
   font-size: 18px;
 }
-img {
+.first {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
+}
+
+.second {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.third {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
 .my-custom-carousel .carousel-caption > p {
@@ -47,4 +59,21 @@ img {
   margin: 15px;
   background-color: lightgray;
   opacity: 0.6;
+}
+
+.my-custom-carousel .carousel-indicators > li.active {
+  background-color: black;
+  opacity: 1;
+}
+
+.my-custom-carousel .carousel-control-prev, 
+.my-custom-carousel .carousel-control-next {
+  opacity: 1;
+  
+}
+
+.icon {
+  width: 30px;
+  margin-left: 60px;
+  margin-top: 200px;
 }

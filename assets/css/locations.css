@@ -6,23 +6,21 @@ body {
   margin-top: 100px;
   }
 
-.tab {
-  font-size: 18px;
-  font-family: Helvetica;
-  text-transform: uppercase;
-  margin-top: 15px;
-  margin-left: 50px;
-  list-style: none;
-  text-decoration: none;
+  .tab {
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+
+  .tab-style {
+    color: white;
+    text-decoration: none;
   }
 
-.tab-style {
-  color: white;
-}
-
-.row {
-  display: inline-block;
-}
 
 h5 {
   float: top;
@@ -34,14 +32,14 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .location-la {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
 }
 
 .my-custom-carousel .carousel-caption > p {
@@ -65,5 +63,11 @@ h5 {
 .my-custom-carousel .carousel-control-next {
   opacity: 1;
   
+}
+
+.icon {
+  width: 30px;
+  margin-left: 60px;
+  margin-top: 200px;
 }
 
