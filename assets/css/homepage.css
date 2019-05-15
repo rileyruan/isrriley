@@ -24,8 +24,6 @@ h1 {
   color: white;
   font-family: Helvetica;
   text-transform: lowercase;
-  margin-right: 300px;
-  margin-top: 200px;
   float:right;
   text-align: center;
 }
@@ -45,17 +43,28 @@ a{
 
 @media only screen and (min-width: 414px) {
   h1 {
-    font-size: 70px;
-    margin-right: 0px;
+    font-size: 80px;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .icon {
+      width: 30px;
+      margin-left: 60px;
+      margin-top: 80px;
+    
   }
 
   @media only screen and (min-width: 768px) {
   h1 {
     font-size: 150px;
     margin-right: 100px;
+    margin-top: 130px;
   }
-  @media only screen and (min-width: 1024px) {
+
+  @media only screen and (min-width: 1024px) { 
     h1 {
-      font-size: 200px;
-      margin-right: 200px;
-    }
+    font-size: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+  }
