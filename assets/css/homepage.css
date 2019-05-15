@@ -25,9 +25,8 @@ h1 {
   font-size: 200px;
   font-family: Helvetica;
   text-transform: lowercase;
-  margin-right: 300px;
   margin-top: 200px;
-  float:right;
+  min-width: 375px;
   text-align: center;
 }
 
