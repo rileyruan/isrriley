@@ -22,11 +22,11 @@ body {
   }
 h1 {
   color: white;
-  font-size: 200px;
   font-family: Helvetica;
   text-transform: lowercase;
+  margin-right: 300px;
   margin-top: 200px;
-  min-width: 375px;
+  float:right;
   text-align: center;
 }
 
@@ -43,3 +43,16 @@ a{
 }
 
 
+@media only screen and (min-width: 414px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 150px;
+  }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      font-size: 200px;
+    }
